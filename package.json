@@ -1,0 +1,21 @@
+{
+  "name": "phom-ta-la-game",
+  "version": "1.0.0",
+  "description": "Game bài Tá Lả (Phỏm) miền Bắc - HTML5 / Facebook Instant Games",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "tsx tests/run-tests.ts"
+  },
+  "dependencies": {
+    "phaser": "^3.88.2"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3",
+    "vite": "^6.2.0"
+  }
+}
